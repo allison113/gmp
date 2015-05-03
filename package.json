@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/allison113/gmp",
   "scripts": {
-    "test": "cd src/casperjs && ../../node_modules/casperjs/bin/casperjs --engine=slimerjs test login.js"
+    "test": "cd src/casperjs && ../../node_modules/casperjs/bin/casperjs test login.js"
   },
   "devDependencies": {
     "casperjs": "^1.1.0-beta3"
