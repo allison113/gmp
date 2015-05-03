@@ -1,3 +1,4 @@
 src/casperjs/stats
 .idea
 gmp.iml
+node_modules

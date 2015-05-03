@@ -1,0 +1,23 @@
+{
+  "name": "gmp",
+  "version": "1.0.0",
+  "description": "gmp screen shot test",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allison113/gmp.git"
+  },
+  "author": "Allison!",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allison113/gmp/issues"
+  },
+  "homepage": "https://github.com/allison113/gmp",
+  "scripts": {
+    "test": "cd src/casperjs && ../../node_modules/casperjs/bin/casperjs --engine=slimerjs test login.js"
+  },
+  "devDependencies": {
+    "casperjs": "^1.1.0-beta3"
+  },
+  "private": true
+}
